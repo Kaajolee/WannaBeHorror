@@ -457,8 +457,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f37925d15c0faf64899e455b74d5d865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minWaitForLightning: 30
-  maxWaitForLightning: 60
+  minWaitForLightning: 8
+  maxWaitForLightning: 12
 --- !u!108 &56153635
 Light:
   m_ObjectHideFlags: 0
@@ -27377,7 +27377,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 413807246736003325, guid: 00735cd7a4de4054c960c1e508755f64, type: 3}
       propertyPath: bobbingSpeed
-      value: 0.04
+      value: 0.025
       objectReference: {fileID: 0}
     - target: {fileID: 413807246736003325, guid: 00735cd7a4de4054c960c1e508755f64, type: 3}
       propertyPath: bobbingAmount
@@ -30046,9 +30046,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 3824386111589459767, guid: 554b9f9d047abec42bb7540e0357934f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3824386111589694231, guid: 554b9f9d047abec42bb7540e0357934f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40.5
+      value: 28.6
       objectReference: {fileID: 0}
     - target: {fileID: 3824386111589694231, guid: 554b9f9d047abec42bb7540e0357934f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -30056,7 +30060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3824386111589694231, guid: 554b9f9d047abec42bb7540e0357934f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.7
+      value: 64.4
       objectReference: {fileID: 0}
     - target: {fileID: 3824386111589694231, guid: 554b9f9d047abec42bb7540e0357934f, type: 3}
       propertyPath: m_LocalRotation.w
